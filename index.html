@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List Web Application</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      
+      
+      <script src="base.js"></script>
+      <script src="todo.js"></script>
+  </head>
+
+  <body style="background-color: rgb(172, 173, 224);">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Home</a>
+    </nav> 
+
+    <form id="demo">
+      
+        <div> Enter Login Details </div>
+
+        <div> <input type="text" id="user" placeholder="Username"> </div>
+        
+        <div> <input type="password" id="pass" placeholder="Password"> </div>
+    
+        <div> <button id="check" onclick="check_log()"> Click here to continue! </button> </div>
+
+        <div> <button type ="reset" id="clr"> Click here to reset </button> </div>
+        
+        <!-- <div> <input type="checkbox" id="chk1"> </div> -->
+
+    </form>
+  </body>
+</html>
